@@ -37,7 +37,7 @@ public class Program {
 	    	System.out.println(""+ (i+1) + "- " + universe.get(i));
 	    }
 	    
-	    //Create one or more sets that are subsets of the universe.
+	    //Create zero or more sets that are subsets of the universe.
 	    System.out.println("\nPlease enter the number of required sets:");
 	    subsetNum=-1;
 	    while(subsetNum < 0) {
